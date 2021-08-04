@@ -1168,7 +1168,7 @@
     padding-right: 0;
   }
   .header .header-content {
-    padding-left: 20px;
+    padding-left: 25px;
   }
   .header .header-content .sub-title {
     font-size: 20.339px;
@@ -1224,6 +1224,12 @@
     margin-top: 0;
     font-size: 14px;
   }
+  .main-content .featured .featured-top-inner {
+    padding: 0 15px;
+  }
+  .main-content .featured .featured-top-inner .view-more ion-icon {
+    margin-right: 0;
+  }
   .main-content .featured .featured-list .row {
     margin: 0 -15px;
     -webkit-box-pack: center;
@@ -1232,7 +1238,7 @@
   }
   .main-content .featured .featured-list .featured-item {
     width: 33.33333%;
-    padding: 0 10px;
+    padding: 0 15px;
   }
   .main-content .blog {
     margin: 0 auto;
@@ -1243,7 +1249,7 @@
   }
   .main-content .blog .blog-list .row .blog-item {
     width: 50%;
-    padding: 0 20px;
+    padding: 0 15px;
     margin-bottom: 20px;
   }
   .main-content .blog .blog-list .row .blog-item .blog-inner .blog-top .blog-info .blog-title {

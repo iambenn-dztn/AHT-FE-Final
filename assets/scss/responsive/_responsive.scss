@@ -10,7 +10,7 @@
             padding-right: 0;
         }
         .header-content {
-            padding-left: 20px;
+            padding-left: 25px;
             .sub-title {
                 font-size: 20.339px;
                 line-height: 0;
@@ -75,6 +75,16 @@
             }
         }
         .featured {
+            .featured-top {
+                &-inner {
+                    padding: 0 15px;
+                    .view-more {
+                        ion-icon {
+                            margin-right: 0;
+                        }
+                    }
+                }
+            }
             .featured-list {
                 .row {
                     margin: 0 -15px;
@@ -82,7 +92,7 @@
                 }
                 .featured-item {
                     width: 33.33333%;
-                    padding: 0 10px;
+                    padding: 0 15px;
                 }
             }
         }
@@ -94,7 +104,7 @@
                     margin: 0 -15px;
                     .blog-item {
                         width: 50%;
-                        padding: 0 20px;
+                        padding: 0 15px;
                         margin-bottom: 20px;
                         .blog-inner {
                             .blog-top {
