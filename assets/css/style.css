@@ -1162,7 +1162,7 @@
     padding-right: 0;
   }
   .header .header-content {
-    padding-left: 15px;
+    padding-left: 20px;
   }
   .header .header-content .sub-title {
     font-size: 20.339px;
@@ -1233,7 +1233,7 @@
     margin-top: 100px;
   }
   .main-content .blog .blog-list .row {
-    margin: 0 -35px;
+    margin: 0 -15px;
   }
   .main-content .blog .blog-list .row .blog-item {
     width: 50%;
@@ -1242,6 +1242,9 @@
   }
   .main-content .blog .blog-list .row .blog-item .blog-inner .blog-top .blog-info .blog-title {
     font-size: 20px;
+  }
+  .main-content .brand .brand-list .row {
+    margin: 0;
   }
   .main-content .brand .brand-list .brand-item {
     width: 33.33333%;
@@ -1485,7 +1488,7 @@
   .footer .footer-top #btn-nav {
     position: absolute;
     bottom: 100px;
-    right: 0px;
+    right: -4px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1685,6 +1688,7 @@
   .main-content .brand .brand-list .brand-item {
     width: 100%;
     margin-bottom: 20px;
+    padding: 0;
   }
   .footer {
     position: relative;
@@ -1742,6 +1746,9 @@
   .main-content .banner .banner2 .content {
     top: 14%;
     right: 5.5%;
+  }
+  .main-content .featured .featured-top {
+    padding: 0 20px;
   }
   .footer {
     position: relative;

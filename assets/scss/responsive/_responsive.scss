@@ -10,7 +10,7 @@
             padding-right: 0;
         }
         .header-content {
-            padding-left: 15px;
+            padding-left: 20px;
             .sub-title {
                 font-size: 20.339px;
                 line-height: 0;
@@ -91,7 +91,7 @@
             margin-top: 100px;
             .blog-list {
                 .row {
-                    margin: 0 -35px;
+                    margin: 0 -15px;
                     .blog-item {
                         width: 50%;
                         padding: 0 20px;
@@ -111,6 +111,9 @@
         }
         .brand {
             .brand-list {
+                .row {
+                    margin: 0;
+                }
                 .brand-item {
                     width: 33.33333%;
                     margin-bottom: 20px;
@@ -365,7 +368,7 @@
             #btn-nav {
                 position: absolute;
                 bottom: 100px;
-                right: 0px;
+                right: -4px;
                 display: flex;
             }
         }
@@ -618,6 +621,7 @@
                 .brand-item {
                     width: 100%;
                     margin-bottom: 20px;
+                    padding: 0;
                 }
             }
         }
@@ -676,6 +680,12 @@
                 }
             }
         }
+        .featured {
+            .featured-top {
+                padding: 0 20px;
+            }
+        }
+
     }
     .footer {
         position: relative;
