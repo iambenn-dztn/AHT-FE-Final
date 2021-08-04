@@ -528,17 +528,21 @@
         align-items: center;
         min-height: 200px;
         .brand-list {
-            padding-top: 10px;
+            padding: 0px;
             .brand-item {
                 cursor: pointer;
                 width: 16.66666%;
                 padding: 0 15px;
                 display: flex;
-                opacity: 0.3;
                 justify-content: center;
                 align-items: center;
+                img {
+                    opacity: 0.3;
+                }
                 &:hover {
-                    opacity: 1;
+                    img {
+                        opacity: 1;
+                    }
                 }
             }
         }

@@ -3,11 +3,14 @@
         .header-logo {
             padding-left: 0;
         }
+        .header-top {
+            padding: 0 100px;
+        }
         .header-right {
             padding-right: 0;
         }
         .header-content {
-            padding-left: 30px;
+            padding-left: 15px;
             .sub-title {
                 font-size: 20.339px;
                 line-height: 0;
@@ -22,6 +25,7 @@
             }
         }
         .header-social {
+            padding-right: 20px;
             li {
                 font-size: 20px;
                 line-height: 2;
@@ -73,10 +77,12 @@
         .featured {
             .featured-list {
                 .row {
-                    margin: 0 -15px;
+                    margin: 0 -25px;
+                    justify-content: center;
                 }
                 .featured-item {
                     width: 33.33333%;
+                    padding: 0 10px;
                 }
             }
         }
@@ -85,10 +91,11 @@
             margin-top: 100px;
             .blog-list {
                 .row {
-                    margin: 0 -15px;
+                    margin: 0 -35px;
                     .blog-item {
                         width: 50%;
-                        margin-bottom: 30px;
+                        padding: 0 20px;
+                        margin-bottom: 20px;
                         .blog-inner {
                             .blog-top {
                                 .blog-info {
@@ -113,12 +120,23 @@
     }
     .footer {
         padding: 0 5%;
+        .footer-top {
+            padding-left: 35px;
+            padding-right: 35px;
+        }
+        .footer-bottom {
+            padding-left: 35px;
+            padding-right: 35px;
+        }
     }
 }
 @media all and (max-width:1024px) {
     .header {
+        .header-top {
+            padding: 0 10px;
+        }
         .header-content {
-            padding-left: 30px;
+            padding: 0 20px;
             .sub-title {
                 font-size: 18.339px;
             }
@@ -164,7 +182,7 @@
         }
         .banner {
             .row {
-                margin: 0;
+                margin: 0 -15px;
                 padding: 0;
             }
             .banner-item {
@@ -196,7 +214,7 @@
             }
             .featured-list {
                 .row {
-                    margin: 0;
+                    margin: 0 -15px;
                 }
                 .featured-item {
                     padding: 0 10px;
@@ -207,60 +225,48 @@
         .blog {
             margin: 0 auto;
             margin-top: 100px;
-            .blog-item {
-                width: 49%;
-                margin-bottom: 30px;
-                padding: 0;
-                text-align: center;
-                .blog-inner {
-                    .blog-bottom {
-                        display: flex;
-                        justify-content: center;
+            .blog-list {
+                .row {
+                    margin: 0 -15px;
+                    .blog-item {
+                        width: 50%;
+                        margin-bottom: 30px;
+                        padding: 10px;
                         text-align: center;
+                        .blog-inner {
+                            .blog-bottom {
+                                display: flex;
+                                justify-content: center;
+                                text-align: center;
+                            }
+                        }
                     }
                 }
             }
+            
         }
     }
     .footer {
+        padding: 0 5%;
         .footer-top {
-            display: flex;
-            height: 230px;
-            align-items: center;
-            justify-content: space-between;
-            border-bottom: 1px solid rgb(36, 36, 36);
-            ul {
-                display: flex;
-                list-style: none;
-                margin-top: 90px;
-                margin-left: 0;
-                li {
-                    margin-right: 20px;
-                    font-size: 14px;
-                    font-family: "Fira Sans";
-                    font-weight: bold;
-                    text-transform: uppercase;
-                    line-height: 1.714;
-                    cursor: pointer;
-                    &:hover {
-                        color: rgb(214, 186, 141);
-                    }
-                }
-            }
+            padding: 0;
+        }
+        .footer-bottom {
+            padding-left: 0;
+            padding-right: 0;
         }
     }
 }
 @media all and (max-width:768px) {
     .header {
         padding-bottom: 0;
-        // background-size: cover;
         height: 615.54px;
         background-position: right 30% top;
         .header-top {
             margin-top: 15px;
         }
         .header-content {
-            padding-left: 30px;
+            padding-left: 15px;
             .sub-title {
                 font-size: 15.339px;
             }
@@ -377,7 +383,7 @@
             }
         }
         .header-content {
-            padding-left: 30px;
+            padding-left: 15px;
             .sub-title {
                 font-size: 15.339px;
                 letter-spacing: 6px;
