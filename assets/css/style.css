@@ -1237,7 +1237,7 @@
             justify-content: center;
   }
   .main-content .featured .featured-list .featured-item {
-    width: 33.33333%;
+    width: 25%;
     padding: 0 15px;
   }
   .main-content .blog {
@@ -1744,9 +1744,11 @@
         -ms-flex-order: 2;
             order: 2;
     width: 320px;
-    font-size: 9px;
     text-align: center;
     bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
   }
 }
 
@@ -1803,9 +1805,11 @@
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
-    font-size: 9px;
     text-align: center;
     bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
   }
 }
 
