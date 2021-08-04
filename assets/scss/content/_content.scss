@@ -421,6 +421,8 @@
         .blog-list {
             .row {
                 margin: 0 -30px;
+                display: flex;
+                justify-content: center;
                 .blog-item {
                     width: 33.33333%;
                     padding: 0 15px;

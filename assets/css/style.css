@@ -772,6 +772,12 @@
 
 .main-content .blog .blog-list .row {
   margin: 0 -30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .main-content .blog .blog-list .row .blog-item {
@@ -1219,7 +1225,7 @@
     font-size: 14px;
   }
   .main-content .featured .featured-list .row {
-    margin: 0 -25px;
+    margin: 0 -15px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
@@ -1256,6 +1262,11 @@
   .footer .footer-top {
     padding-left: 35px;
     padding-right: 35px;
+  }
+  .footer .footer-top ul li {
+    letter-spacing: 1px;
+    margin-right: 18px;
+    font-size: 10px;
   }
   .footer .footer-bottom {
     padding-left: 35px;
@@ -1717,9 +1728,16 @@
   }
   .footer .footer-bottom .copy-right {
     position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
+    width: 320px;
     font-size: 9px;
     text-align: center;
     bottom: 0;
